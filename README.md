@@ -1,7 +1,9 @@
-# WNRS
+# YAP
 
-Play WNRS on your browser [here](https://munjoonteo.github.io/wnrs/)! Contains all the cards from the standard deck with a few choice additions.
+Play YAP on your browser [here]([https://yaptheapp.com/]))!
 
-Created in collaboration with [@ilyues](https://github.com/ilyues).
+Questions and new additions (submission box, upvoting) by [@nafisaumarvm](https://github.com/nafisaumarvm)
+
+Original version (UI) created by [@ilyues](https://github.com/ilyues) and [@munjoonteo](https://github.com/munjoonteo).
 
 Written with React.
