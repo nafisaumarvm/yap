@@ -12,7 +12,7 @@ export default function VotePage() {
       .from("submissions")
       .select("id, question, votes")
       .order("votes", { ascending: false })
-      .then(({ data }) => setSubmissions(data ?? []));
+      .then(({ data }) => setSubmissions((data as Submission[]) ?? []));
   }, []);
 
   async function vote(id: string, delta: 1 | -1) {
