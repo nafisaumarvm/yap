@@ -18,7 +18,7 @@ export default function SubmitPage() {
         max_tokens: 100,
         messages: [{
           role: "user",
-          content: `Is this a genuine, thoughtful conversation question suitable for a social card game? Reply only with JSON: {"ok": true} or {"ok": false, "reason": "..."}.\n\nQuestion: "${question}"`
+          content: `Is this a genuine, thoughtful conversation question suitable for a social card game? Check for any innapropriate content. Reply only with JSON: {"ok": true} or {"ok": false, "reason": "..."}.\n\nQuestion: "${question}"`
         }]
       })
     });
