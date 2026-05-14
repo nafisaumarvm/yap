@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { contStyles, creditStyles, creditTitleStyles } from "./Credits.css";
 
 const Credits = () => {
@@ -7,10 +8,17 @@ const Credits = () => {
       <div className={contStyles}>
         <b>How to play:</b> <br />
         Become more than strangers, one card at a time.
-        <p>Refresh to reset card decks.</p>{" "}
-        <p>Add questions via the submission form. Up- or downvote via the Voting page. Questions will be automatically checked for appropriateness and added to the voting page on a daily basis.</p>{" "}
+        <p>Refresh to reset card decks.</p>
         <p>
-          Questions and new additions (question submission box, upvoting) by <a href="https://github.com/nafisaumarvm">nafisaumarvm</a>
+          Add questions via the submission form. Up- or downvote via the Voting page. Questions will
+          be automatically checked for appropriateness and added to the voting page on a daily
+          basis.
+        </p>
+        <p>
+          <Link to="/submit">submit a question</Link> · <Link to="/vote">vote on questions</Link>
+        </p>
+        <p>
+          Questions and new additions by <a href="https://github.com/nafisaumarvm">nafisaumarvm</a>.
           Original design by <a href="https://github.com/munjoonteo">@munjoonteo</a> and{" "}
           <a href="https://github.com/ilyues">@ilyues</a>.
         </p>

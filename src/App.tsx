@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import { questions } from "./assets/levels";
 import Card from "./components/card/Card";
@@ -53,10 +52,6 @@ function App() {
         </button>
       </div>
       <CardHistory cardHistory={cardHistory} />
-      <div>
-        <Link to="/submit">submit a question</Link>
-        <Link to="/vote">vote on questions</Link>
-      </div>
     </div>
   );
 }
